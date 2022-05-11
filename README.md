@@ -4,7 +4,7 @@
 
 **We support both Tensorflow and Pytorch.**
 
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/conduction-trimesh.png)
+![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/Conduction-trimesh.png)
 
 ## Prerequisites
 
