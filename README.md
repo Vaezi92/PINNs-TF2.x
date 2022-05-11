@@ -6,6 +6,8 @@
 
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TemperatureField.png)
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TriMesh.png)
+![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2DConduction-Lossfunction.png)
+
 ## Prerequisites
 
 - Python 3.x
