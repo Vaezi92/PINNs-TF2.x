@@ -38,6 +38,6 @@ The PINNs approach is at its beginning step and has strong potential which will 
 - 
 ## Prerequisites
 
-- Python 3.x
-- Numpy
-- Tensorflow or Pytorch 1.0+
+- Python 3.9
+- Numpy 1.20
+- Tensorflow 2.8
