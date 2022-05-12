@@ -32,9 +32,10 @@ The PINNs approach is at its beginning step and has strong potential which will 
 - There are no guarantees to reaching the best architecture in order to cover all problems. The best architecture for each problem can be determined using try and error or using the AutoML approaches.
 
 ## Notes for CFD specialist
-
-
-
+- According to the weaknesses of PINNs in the prediction of the field near the boundaries, It doesn't recommend to utilize this approach in the problems in which the quantities near the boundaries are important such as turbulence problems.
+- Sample points distribution is random in the original version of PINNs which I think may cause some problems in the validation & verification process. Applying the specific density of the sample points in some zones of the field is a bit challenging. It is recommended to use traditional approaches of CFD to generate the mesh and consider the cell centers or nodes as sample points.
+- The PINNs has more potential in data-driven discovery than direct solutions rather than traditional CFD approaches.
+- 
 ## Prerequisites
 
 - Python 3.x
