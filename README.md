@@ -1,6 +1,9 @@
 # Physics Informed Neural Networks: a starting step for CFD specialists
 
- [Maziar Raisee et al. (2017)](https://maziarraissi.github.io/PINNs/) have developed Physics Informed Neural Networks approach to solving Partial Differential Equations. They present developments in the context of solving two main classes of problems: data-driven solutions and data-driven discovery of partial differential equations. In the direct approach (data-driven solution), PDE and boundary conditions of a problem are considered as an optimization problem and the goal is to decrease the loss function which is defined based on the objective function of the optimization problem. The main idea of the PINNs is to impose the temporal and spatial gradients in the architecture of a neural network based on chain rule differentiation and consider the PDE and boundary conditions as a loss function.
+ [Maziar Raisee et al. (2017)](https://maziarraissi.github.io/PINNs/) have developed Physics Informed Neural Networks approach to solving Partial Differential Equations. They present developments in the context of solving two main classes of problems: data-driven solutions and data-driven discovery of partial differential equations. In the direct approach (data-driven solution), PDE and boundary conditions of a problem are considered as an optimization problem and the goal is to decrease the loss function which is defined based on the objective function of the optimization problem. The main idea of the PINNs is to impose the temporal and spatial gradients in the architecture of a neural network based on chain rule differentiation and consider the PDE and boundary conditions as a loss function. You can see the non-dimensional governing equation of a natural convection problem and its architecture as bellow:
+ 
+ ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NaturalConvection.png)
+ ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NC-LossFunction.png)
 
 ## Pros & Cons
 
@@ -16,8 +19,9 @@ The PINNs approach is at its beginning step and has strong potential which will 
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TemperatureField.png)
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TriMesh.png)
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2DConduction-Lossfunction.png)
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NC-LossFunction.png)
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/Natural.png)
+
+
+
 
 
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Mesh.png)
