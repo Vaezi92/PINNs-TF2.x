@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 11 13:01:37 2021
 
-@author: HERASAT-6
+@author: Mohammad Vaezi
 """
 import numpy as np
 
