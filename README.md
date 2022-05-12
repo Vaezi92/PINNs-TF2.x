@@ -2,8 +2,10 @@
 
  [Maziar Raisee et al. (2017)](https://maziarraissi.github.io/PINNs/) have developed Physics Informed Neural Networks approach to solving Partial Differential Equations. They present developments in the context of solving two main classes of problems: data-driven solutions and data-driven discovery of partial differential equations. In the direct approach (data-driven solution), PDE and boundary conditions of a problem are considered as an optimization problem and the goal is to decrease the loss function which is defined based on the objective function of the optimization problem. The main idea of the PINNs is to impose the temporal and spatial gradients in the architecture of a neural network based on chain rule differentiation and consider the PDE and boundary conditions as a loss function. You can see the non-dimensional governing equation of a natural convection problem and its architecture as bellow:
  
- ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NaturalConvection.png)
- ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NC-LossFunction.png)
+
+| Governing equation | Architecture |
+| --- | --- |
+| <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NC-LossFunction.png" width="400"> | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NaturalConvection.png" width="600"> |
 
 ## Pros & Cons
 
