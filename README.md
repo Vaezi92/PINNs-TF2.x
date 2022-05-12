@@ -41,4 +41,4 @@ The PINNs approach is at its beginning step and has strong potential which will 
 - Python 3.9
 - Numpy 1.20
 - Tensorflow 2.8
-- In Main_ReadMshFile.f90, I wrote a fortran code which read mesh files in .MSH produced by Ansys meshing and writes its data in .txt format.
+- In Main_ReadMshFile.f90, I wrote a fortran code which reads mesh file in .MSH produced by Ansys meshing and writes its data in .txt format.
