@@ -7,6 +7,21 @@
 | --- | --- |
 | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NC-LossFunction.png" width="400"> | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/NaturalConvection.png" width="600"> |
 
+## Two basic problem
+
+- Two-dimensional conduction heat transfer
+
+| Mesh | Loss function | Temperature field |
+| --- | --- | ---|
+| <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TriMesh.png" width="400"> | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2DConduction-Lossfunction.png" width="400"> | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TemperatureField.png" width="400"> |
+
+- Lid-driven cavity flow
+
+| Mesh | Pressure field | Velocity Magnitude field |
+| --- | --- | ---|
+| <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Mesh.png" width="400"> | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Pressurefield.png" width="400"> | <img src="https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-VelocityMagnitude.png" width="400"> |
+
+
 ## Pros & Cons
 
 The PINNs approach is at its beginning step and has strong potential which will be explored in the future but there are main pros & cons at this time (June 2021):
@@ -17,21 +32,6 @@ The PINNs approach is at its beginning step and has strong potential which will 
 - There are no guarantees to reaching the best architecture in order to cover all problems. The best architecture for each problem can be determined using try and error or using the AutoML approaches.
 
 ## Notes for CFD specialist
-
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TemperatureField.png)
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TriMesh.png)
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2DConduction-Lossfunction.png)
-
-
-
-
-
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Mesh.png)
-
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Pressurefield.png)
-
-![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-VelocityMagnitude.png)
-
 
 
 
