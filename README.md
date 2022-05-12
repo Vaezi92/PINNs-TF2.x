@@ -1,12 +1,30 @@
-# Deep Learning for Human Activity Recognition
+# Physics Informed Neural Networks: a starting step for CFD specialists
 
-> Deep learning is perhaps the nearest future of human activity recognition. While there are many existing non-deep method, we still want to unleash the full power of deep learning. This repo provides a demo of using deep learning to perform human activity recognition.
+[Maziar Raisee et al. (2017)](https://maziarraissi.github.io/PINNs/) have developed Physics Informed Neural Networks approach to solving Partial Differential Equations. They present developments in the context of solving two main classes of problems: data-driven solutions and data-driven discovery of partial differential equations. In the direct approach (data-driven solution), PDE and boundary conditions of a problem are considered as an optimization problem and the goal is to decrease the loss function which is defined based on the objective function of the optimization problem. The main idea of the PINNs is to impose the temporal and spatial gradients in the architecture of a neural network based on chain rule differentiation and consider the PDE and boundary conditions as a loss function.
 
-**We support both Tensorflow and Pytorch.**
+## Pros & Cons
+
+The PINNs approach is at its beginning step and has strong potential which will be explored in the future but there are main pros & cons at this time (June 2021):
+- The PINNs is able to solve ill-posed problems.
+- The PINNS is able to solve reverse problem (data-driven discovery).
+- It has a weakness in predicting the boundary conditions (see 2D conduction or lid-driven cavity BCs).
+- The cost of computations for training is high in comparison to CFD solutions (There are some predictions that the cost of computation may be decreased by the complexity of the problem in comparison to CFD solutions).
+- There are no guarantees to reaching the best architecture in order to cover all problems. The best architecture for each problem can be determined using try and error or using the AutoML approaches.
+
+## Notes for CFD specialist
 
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TemperatureField.png)
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2D%20Conduction%20-%20TriMesh.png)
 ![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Conduction/Figs/2DConduction-Lossfunction.png)
+
+![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Mesh.png)
+
+![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-Pressurefield.png)
+
+![alt text](https://github.com/Vaezi92/PINNs-TF2.x/blob/main/2D-Cavity/Figs/Cavity-VelocityMagnitude.png)
+
+
+
 
 ## Prerequisites
 
